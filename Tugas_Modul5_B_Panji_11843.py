@@ -4,8 +4,7 @@ import tensorflow as tf
 from PIL import Image
 import os
 
-model_directory = r'C:\Users\bravo\Downloads\Documents\Introduction to Deep Learning (Praktek)'
-model_path = os.path.join(model_directory, r'best_model_tf.h5')
+model_path = best_model_tf.h5
 
 if os.path.exists(model_path):
     try:
